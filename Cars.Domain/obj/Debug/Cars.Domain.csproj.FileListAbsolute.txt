@@ -1,0 +1,6 @@
+C:\Users\GC Student\Source\Repos\FinalCapstone\Cars.Domain\bin\Debug\Cars.Domain.dll
+C:\Users\GC Student\Source\Repos\FinalCapstone\Cars.Domain\bin\Debug\Cars.Domain.pdb
+C:\Users\GC Student\Source\Repos\FinalCapstone\Cars.Domain\obj\Debug\Cars.Domain.csprojResolveAssemblyReference.cache
+C:\Users\GC Student\Source\Repos\FinalCapstone\Cars.Domain\obj\Debug\Cars.Domain.csproj.CoreCompileInputs.cache
+C:\Users\GC Student\Source\Repos\FinalCapstone\Cars.Domain\obj\Debug\Cars.Domain.dll
+C:\Users\GC Student\Source\Repos\FinalCapstone\Cars.Domain\obj\Debug\Cars.Domain.pdb
