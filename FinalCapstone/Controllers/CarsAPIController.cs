@@ -34,6 +34,20 @@ namespace FinalCapstone.Controllers
             }
             return Ok(car);
         }
+        public IQueryable<Car> GetColor()
+        {
+            return db.Cars;
+        }
+        [ResponseType(typeof(Car))]
+        public IHttpActionResult GetColor(string color)
+        {
+            Car car2 = db.Cars.Find(color);
+            if(car == null)
+            {
+                return NotFound();
+            }
+            return Ok(car);
+        }
 
         // PUT: api/CarsAPI/5
         [ResponseType(typeof(void))]

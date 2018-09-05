@@ -11,3 +11,5 @@ C:\Users\GC Student\Source\Repos\FinalCapstone\Cars.Data\obj\Debug\Cars.Data.csp
 C:\Users\GC Student\Source\Repos\FinalCapstone\Cars.Data\obj\Debug\Cars.Data.csproj.CoreCompileInputs.cache
 C:\Users\GC Student\Source\Repos\FinalCapstone\Cars.Data\obj\Debug\Cars.Data.dll
 C:\Users\GC Student\Source\Repos\FinalCapstone\Cars.Data\obj\Debug\Cars.Data.pdb
+C:\Users\GC Student\Source\Repos\FinalCapstone\Cars.Data\bin\Debug\Newtonsoft.Json.dll
+C:\Users\GC Student\Source\Repos\FinalCapstone\Cars.Data\bin\Debug\Newtonsoft.Json.xml
