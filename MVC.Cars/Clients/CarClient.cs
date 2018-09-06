@@ -24,5 +24,29 @@ namespace MVC.Cars.Clients
             var response = await _client.ExecuteTaskAsync(request);
             return JsonConvert.DeserializeObject<ICollection<Car>>(response.Content);
         }
+        public async Task<ICollection<Car>> GetColor(string color)
+        {
+            var request = new RestRequest("api/CarsAPI", Method.GET);
+            var response = await _client.ExecuteTaskAsync(request);
+            return JsonConvert.DeserializeObject<ICollection<Car>>(response.Content);
+        }
+        public async Task<ICollection<Car>> GetMake(string make)
+        {
+            var request = new RestRequest("api/CarsAPI", Method.GET);
+            var response = await _client.ExecuteTaskAsync(request);
+            return JsonConvert.DeserializeObject<ICollection<Car>>(response.Content);
+        }
+        public async Task<ICollection<Car>> GetModel(string model)
+        {
+            var request = new RestRequest("api/CarsAPI", Method.GET);
+            var response = await _client.ExecuteTaskAsync(request);
+            return JsonConvert.DeserializeObject<ICollection<Car>>(response.Content);
+        }
+        public async Task<ICollection<Car>> GetYear(int year)
+        {
+            var request = new RestRequest("api/CarsAPI", Method.GET);
+            var response = await _client.ExecuteTaskAsync(request);
+            return JsonConvert.DeserializeObject<ICollection<Car>>(response.Content);
+        }
     }
 }

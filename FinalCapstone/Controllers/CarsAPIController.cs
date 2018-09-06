@@ -34,19 +34,24 @@ namespace FinalCapstone.Controllers
             }
             return Ok(car);
         }
-        public IQueryable<Car> GetColor()
+        public IQueryable<Car> GetColor(string color)
         {
-            return db.Cars;
+            return db.Cars.Where(x => x.Color == color);
         }
-        [ResponseType(typeof(Car))]
-        public IHttpActionResult GetColor(string color)
+
+        public IQueryable<Car> GetModel(string model)
         {
-            Car car2 = db.Cars.Find(color);
-            if(car == null)
-            {
-                return NotFound();
-            }
-            return Ok(car);
+            return db.Cars.Where(x => x.Model == model);
+        }
+
+        public IQueryable<Car> GetMake(string make)
+        {
+            return db.Cars.Where(x => x.Make == make);
+        }
+
+        public IQueryable<Car> GetYear(int year)
+        {
+            return db.Cars.Where(x => x.Year == year);
         }
 
         // PUT: api/CarsAPI/5
